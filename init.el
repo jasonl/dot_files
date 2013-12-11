@@ -2,6 +2,7 @@
 (require 'jasonl-defaults)
 (require 'jasonl-ui)
 
+(require 'jasonl-ruby)
 (require 'haml-mode)
 
 (setq tab-width 4) ; or any other preferred value
