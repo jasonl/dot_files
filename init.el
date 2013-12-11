@@ -2,6 +2,8 @@
 (require 'jasonl-defaults)
 (require 'jasonl-ui)
 
+(require 'haml-mode)
+
 (setq tab-width 4) ; or any other preferred value
 (defvaralias 'c-basic-offset 'tab-width)
 (defvaralias 'cperl-indent-level 'tab-width)
