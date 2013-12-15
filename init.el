@@ -4,6 +4,7 @@
 
 (require 'jasonl-ruby)
 (require 'haml-mode)
+(require 'coffee-mode)
 
 (setq tab-width 4) ; or any other preferred value
 (defvaralias 'c-basic-offset 'tab-width)
@@ -13,3 +14,6 @@
 
 (require 'ido)
 (ido-mode t)
+
+(setq default-directory "~/Code/")
+
